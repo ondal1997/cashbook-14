@@ -1,0 +1,89 @@
+// typography
+@mixin display-small {
+  font-family: Do Hyeon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+@mixin display-large {
+  font-family: Do Hyeon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+@mixin body-regular {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin body-medium {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@mixin body-large {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+@mixin bold-small {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@mixin bold-medium {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@mixin bold-large {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+// color
+$title-active: #1e2222;
+$body: #626666;
+$label: #8d9393;
+$placeholer: #c1c5c5;
+$line: #ccd3d3;
+$background: #f5f5f5;
+$off-white: #fcfcfc;
+$primary: #2ac1bc;
+$primary-light: #a0e1e0;
+$primary-dark: #219a95;
+$error: #f45452;
+$cancle: #f45452;
+
+$catrgory1: #6ed5eb;
+$catrgory2: #4cb8b8;
+$catrgory3: #94d3cc;
+$catrgory4: #4ca1de;
+$catrgory5: #d092e2;
+$catrgory6: #817dce;
+$catrgory7: #4a6cc3;
+$catrgory8: #b9d58c;
+$catrgory9: #e6d267;
+$catrgory10: #e2b765;
